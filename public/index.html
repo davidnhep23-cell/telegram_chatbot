@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telegram Bot Form</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+
+     <fieldset>
+        <legend align="center"><h1>send notification bot</h1></legend>
+    <form action="/submit" method="post">
+        <center>
+            
+    <label for="username">username:</label>
+    <label for="">
+        <input type="text" name="username"
+         placeholder="username" required>
+        </label><br><br>
+        <!-- create input email -->
+    <label for="email">email:</label>
+    <label>
+        <input type="email" name="email" 
+        placeholder="email" required>
+    </label><br><br>
+    
+    <!-- create textarea for description -->
+<label for="description">description:</label>
+    <label for="">
+        <textarea name="description" placeholder="Enter your description" required></textarea>
+    </label><br><br>
+    <!-- create button click send to telegram -->
+     <label for="">
+        <button type="submit">Send To</button>
+     </label>
+        </center>
+    </fieldset>
+
+
+</body>
+</html>
